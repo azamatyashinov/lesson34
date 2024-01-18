@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+  width: 1320px;
+}
+
+* a:hover {
+  color: black;
+  transition: all 0.3s linear;
+}
+
+header section {
+  height: 80px;
+  background-color: antiquewhite;
+}
+header section .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding-top: 24px;
+}
+header section .link .links {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+header section .link .links a {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  color: #525560;
+}
+header section .link .links button {
+  display: inline-flex;
+  padding: 12px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: #1D2130;
+  color: #FFF;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+header section .link .links button:hover {
+  background-color: #EFF7F2;
+  color: #1D2130;
+  transition: all 0.3s linear;
+}
+
+main section {
+  background-color: #EFF7F2;
+  height: 560px;
+  padding-top: 90px;
+}
+main section nav .top {
+  margin-left: -92px;
+  display: flex;
+  align-items: center;
+}
+main section nav .top hr {
+  width: 72px;
+}
+main section nav .top p {
+  padding-left: 20px;
+  color: #1D2130;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+main section nav div {
+  padding-top: 32px;
+  padding-left: 92px;
+}
+main section nav div h1 {
+  color: #1D2130;
+  /* H1 */
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 67.2px */
+}
+main section nav div p {
+  padding-top: 16px;
+  color: var(--Secondary-text, #525560);
+  /* Paragraph */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+main section nav div .btn {
+  border: none;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #70C174;
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  color: #FFF;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 32px;
+}
+main .section2 nav {
+  padding-top: 203px;
+}
+main .section2 nav div h1 {
+  color: #1D2130;
+  /* H2 */
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+}
+main .section2 nav div p {
+  padding-top: 24px;
+  color: #525560;
+  /* Paragraph */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+
+footer {
+  background-color: black;
+}
+footer section nav {
+  flex-wrap: wrap;
+  display: flex;
+  padding: 96px 0px;
+}
+footer section nav .our {
+  padding-left: 100px;
+}
+footer section nav .our h1 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 25.6px */
+}
+footer section nav .our h2 {
+  padding-top: 20px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+}
+footer section nav .email {
+  padding-left: 100px;
+}
+footer section nav .email h3 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 56px */
+}
+footer section nav .email button {
+  display: inline-flex;
+  height: 56px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #FFF;
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  transform: translateX(-80px);
+}
+
+main nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (max-width: 1300px) {
+  .link {
+    width: 900px;
+  }
+}
+@media (max-width: 960px) {
+  section {
+    background-color: antiquewhite;
+    height: 100px;
+  }
+  section .link {
+    flex-direction: column;
+  }
+  section .link .links {
+    gap: 10px;
+    background-color: #525560;
+    background: transparent;
+  }
+}/*# sourceMappingURL=style.css.map */
