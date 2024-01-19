@@ -184,9 +184,9 @@ main{
 footer{
     background-color: black;
     section{
-        
+        display: flex;
         nav{
-            flex-wrap: wrap;
+            
             display: flex;
             padding: 96px 0px;
             .our{
