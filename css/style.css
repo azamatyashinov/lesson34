@@ -15,6 +15,11 @@
   transition: all 0.3s linear;
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
 header section {
   height: 80px;
   background-color: antiquewhite;
@@ -62,7 +67,11 @@ header section .link .links button:hover {
   transition: all 0.3s linear;
 }
 
+main {
+  padding-top: 100px;
+}
 main section {
+  padding-top: 100px;
   background-color: #EFF7F2;
   height: 560px;
   padding-top: 90px;
@@ -229,4 +238,7 @@ main nav {
     background-color: #525560;
     background: transparent;
   }
+}
+main .section-3 .img {
+  background-image: url(../img/img5.png);
 }/*# sourceMappingURL=style.css.map */

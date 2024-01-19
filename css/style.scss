@@ -15,6 +15,9 @@
 }
 
 header{
+    position: fixed;
+    width: 100%;
+    z-index: 99;
     section{
         
         height: 80px;
@@ -71,7 +74,9 @@ header{
 // main////////////////////
 
 main{
+    padding-top: 100px;
     section{
+        padding-top: 100px;
         background-color:  #EFF7F2;
         height: 560px;
         padding-top: 90px;
@@ -267,6 +272,14 @@ main{
                 
                 
             }
+        }
+    }
+}
+
+main{
+    .section-3{
+        .img{
+            background-image: url(../img/img5.png);
         }
     }
 }
